@@ -4,6 +4,8 @@ import menuTemplate from './templates/template.hbs';
 import './theme.js';
 import './styles.css';
 
+console.log(menuTemplate(menuElement[0]));
+
 
 
 let menu = document.querySelector('.js-menu');
